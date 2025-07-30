@@ -1,0 +1,10 @@
+@import "tailwindcss";
+@custom-variant theme-midnight (&:where([data-theme="midnight"] *));
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow-x: hidden;
+  @apply dark:dark:bg-[#181a20]
+}
